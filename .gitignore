@@ -14,3 +14,7 @@
 
 
 # End of https://www.gitignore.io/api/crystal
+
+# added by Cuda-Chen
+# do not track the executable
+pnn
