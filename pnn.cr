@@ -16,7 +16,7 @@ class Pnn
     # read train_data.txt
     puts "reading iris.data ..."
     File.each_line("iris.data") do |line|
-      train_data << line.chomp.split.map &.to_s
+      train_data << line.chomp.split(",").map &.to_s
     end
     pp train_data
   end
