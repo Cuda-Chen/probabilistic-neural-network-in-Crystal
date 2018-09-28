@@ -20,4 +20,19 @@ class Pnn
     end
     pp train_data
   end
+
+  def input_layer()
+  end
+
+  def pattern_layer()
+  end
+
+  def summation_layer()
+  end
+
+  def output_layer()
+  end
+
+  def activation_function()
+  end
 end
